@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+
+    </style>
+
+    <!---Style for the spinner that is shown while the app is calling home getting the questions-->
+    <style name="spinnerStyle" parent="@style/Base.Widget.AppCompat.ProgressBar">
+        <item name="android:layout_width">50sp</item>
+        <item name="android:layout_height">50sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:color">@color/drawable_stroke</item>
+        <item name="android:progressDrawable">@drawable/circular_progress_bar</item>
+    </style>
+
+    <!---Style for an EditText box that has rounded top corners -->
+    <style name="top_rounded" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/top_rounded</item>
+    </style>
+
+    <!---Style for an EditText box that is not rounded, but color wise matches the top_rounded and bottom_rounded-->
+    <style name="no_rounded" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/no_rounded</item>
+    </style>
+
+    <!---Style for an EdidText box that has rounded Bottom corners-->
+    <style name="bottom_rounded" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/bottom_rounded</item>
+    </style>
+
+    <!---Style to make a picture have rounded edges-->
+    <style name="rounded_image" >
+        <item name="android:background">@drawable/rounded_picture</item>
+    </style>
+
+    <style name="rounded_corers_10sp_text_view" parent="android:Widget.TextView">
+        <item name="android:background">@drawable/rounded_corners_10sp</item>
+    </style>
+
+    <style name="rounded_corers_10sp_radio_group." parent="android:Widget.CompoundButton.RadioButton">
+        <item name="android:background">@drawable/rounded_corners_10sp</item>
+    </style>
+
+    <style name="rounded_corers_10sp_button." parent="android:Widget.Button">
+        <item name="android:background">@drawable/rounded_button_corners</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+</resources>

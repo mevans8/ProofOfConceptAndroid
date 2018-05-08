@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Supreme Court: The Game</string>
+    <string name="questions">Question</string>
+    <string name="questions_answered">Question answered</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="answer_true">True</string>
+    <string name="answer_false">False</string>
+    <string name="prev_button">Prev</string>
+    <string name="next_button">Next</string>
+    <string name="take_quiz_again">Take Quiz Again</string>
+    <string name="score_banner">Score:</string>
+    <string name="email_professor">Email Professor</string>
+
+
+    <string name="username_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup_button">Sign Up</string>
+
+
+    <string name="auth_failed">AuthFailed</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="chat">Chat</string>
+
+    <string name="firebase_base_node">/supremecourtthegame</string>
+    <string name="firebase_answers">/answers</string>
+    <string name="firebase_answer">/answer</string>
+    <string name="firebase_correct">/correct</string>
+    <string name="firebase_question_id">/question_id</string>
+    <string name="firebase_question_group">/question_group </string>
+    <string name="firebase_question_sets">/question_sets</string>
+    <string name="firebase_id">/id_</string>
+    <string name="firebase_question_set">/question_set</string>
+    <string name="firebase_question_set_id">/question_set_id</string>
+    <string name="firebase_questions">/questions</string>
+    <string name="firebase_question">/question</string>
+    <string name="user">/user</string>
+    <string name="user_email">/user_email</string>
+    <string name="user_name">/user_name</string>
+
+
+
+</resources>
